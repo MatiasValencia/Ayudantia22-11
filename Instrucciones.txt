@@ -1,0 +1,26 @@
+Realizar un sistema de gestión de personal, donde puedan agregar,
+eliminar y modificar personas.
+
+Toda la info se guarda en un archivo que se llama Empleados.csv
+(tienen que crear la clase empleado con atributos nombre, rut y
+sueldo).
+
+Otra clase que sea la que hace operaciones crud en el archivo csv
+que tiene como atributo una lista de empleados y puede mostrarlos
+por pantalla usando el toString.
+
+Leer los empleados desde el archivo para inicializar la lista al
+inicio del programa, guardar, eliminar y modificar empleados y aparte
+cada vez que se realice una de estas acciones, tiene que actualizar
+el archivo.
+
+Dentro del Main, debe haber un menú por consola, donde estén
+disponibles todas estas opciones.
+
+Además debe tener un readme con toda la info, tipo la lógica que
+ocuparon con la clase object, la lógica de lectura del archivo,
+limitaciones, complicaciones, etc.
+
+Requisitos:
+-Object
+-Lectura de archivos
