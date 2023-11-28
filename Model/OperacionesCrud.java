@@ -28,8 +28,7 @@ public class OperacionesCrud {
         System.out.println("Ingrese sueldo del empleado: ");
         int sueldo = entradaEmpleado.nextInt();
         entradaEmpleado.close();
-        String[] empleadoString = nuevoEmpleado.split(",");
-        Empleado datosEmpleado = new Empleado(empleadoString[0], empleadoString[1], Integer.valueOf(empleadoString[2]));
+        Empleado datosEmpleado = new Empleado(nombre, rut, sueldo);
         listaEmpleados.add(datosEmpleado);
         // Escribir datos al archivo
         ArrayList<String> aux = listaEmpleadosString();
